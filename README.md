@@ -11,16 +11,22 @@ A minimal and fast CLI tool written in Lua to interact with your Obsidian vault 
 ## Installation
 
 1. Clone the repository:
-   git clone https://github.com/davidykmisha2015-prog/obsidian-cli.git
-   cd obsidian-cli
+```bash
+git clone [https://github.com/davidykmisha2015-prog/obsidian-cli.git](https://github.com/davidykmisha2015-prog/obsidian-cli.git)
+cd obsidian-cli
+```
 
 2. Ensure your vault path is set in `main.lua`:
-   local VAULT_PATH = os.getenv("HOME") .. "/Documents/ObsidianVault"
+```lua
+local VAULT_PATH = os.getenv("HOME") .. "/Documents/ObsidianVault"
+```
 
-4. Make it executable and move to your PATH:
-   chmod +x ob.lua
-   mkdir -p ~/.local/bin
-   cp ob.lua ~/.local/bin/ob
+3. Make it executable and move to your PATH:
+```bash
+chmod +x main.lua
+mkdir -p ~/.local/bin
+cp main.lua ~/.local/bin/ob
+```
 
 ## Usage
 
