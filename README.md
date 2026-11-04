@@ -29,9 +29,7 @@ cp main.lua ~/.local/bin/ob
 ```
 
 ## Usage
-
-# Read a note
-ob read test
-
-# Add text to a note
-ob add test "Quick thought from terminal"
+To see what can do my project type:
+```bash
+ob
+```
